@@ -1997,15 +1997,18 @@ div.cs-select span {
 /*----Bloco de imagens---------*/
 
 .gtco-container ul{
-  display: inline-block;
+  display: block;
   text-align: justify;
   width: 100%;
+  height: 120px;
+  
 }
 
 .gtco-container li{
   float: left;
   
-  width: 50%;
+  margin-right: 40px;
+  width: 40%;
 }
 
 .gtco-section {
@@ -2031,6 +2034,7 @@ div.cs-select span {
     margin-left: 12px;
     
   }
+  
 }
 
 
