@@ -1996,7 +1996,17 @@ div.cs-select span {
 
 /*----Bloco de imagens---------*/
 
+.gtco-container ul{
+  display: inline-block;
+  text-align: justify;
+  width: 100%;
+}
 
+.gtco-container li{
+  float: left;
+  
+  width: 50%;
+}
 
 .gtco-section {
   
@@ -2135,5 +2145,163 @@ div.cs-select span {
   margin-top: -15px;
 }
 .fh5co-project-item:hover h2, .fh5co-project-item:hover span, .fh5co-project-item:focus h2, .fh5co-project-item:focus span {
+  text-decoration: none !important;
+}
+
+
+/*----------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+
+.gt-container ul{
+  display: inline-block;
+  text-align: justify;
+  width: 100%;
+}
+
+.gt-container li{
+  float: left;
+  
+  width: 50%;
+}
+
+.gt-section {
+  
+  padding: 7em 0;
+  clear: both;
+  position: relative;
+}
+
+.gt-container{
+  
+  width: 95%;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .gt-section {
+    padding: 2em 0;
+  }
+  .gt-container{
+  
+    width: 95%;
+    margin-left: 12px;
+    
+  }
+}
+
+
+.fh5-project-item {
+  
+  display: block;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  z-index: 9;
+  bottom: 0;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.fh5-project-item figure {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 12;
+  position: relative;
+}
+.fh5-project-item figure .overlay {
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+.fh5-project-item figure .overlay i {
+  z-index: 12;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: -45px;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.fh5-project-item img {
+  z-index: 8;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  
+}
+.fh5-project-item .fh5-text {
+  padding: 0px 10px 10px 20px;
+  text-align: center;
+}
+.fh5-project-item .fh5-text h2, .fh5-project-item .fh5-text span {
+  text-decoration: none !important;
+}
+.fh5-project-item .fh5-text h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  color: #f54c53;
+}
+.fh5-project-item .fh5-text span {
+  color: #b3b3b3;
+  font-size: 16px;
+  font-weight: 400;
+}
+.fh5-project-item .fh5-text p {
+  color: #000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5-project-item:hover, .fh5-project-item:focus {
+  bottom: 7px;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+}
+.fh5-project-item:hover img, .fh5-project-item:focus img {
+  -webkot-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.fh5-project-item:hover figure .overlay, .fh5-project-item:focus figure .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.fh5-project-item:hover figure .overlay i, .fh5-project-item:focus figure .overlay i {
+  margin-top: -15px;
+}
+.fh5-project-item:hover h2, .fh5-project-item:hover span, .fh5-project-item:focus h2, .fh5-project-item:focus span {
   text-decoration: none !important;
 }
