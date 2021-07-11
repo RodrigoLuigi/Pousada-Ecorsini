@@ -37,7 +37,7 @@ a:hover {
 
 p, ul, ol {
   margin-bottom: 1.5em;
-  font-size: 16px;
+  font-size: 19px;
   color: #848484;
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -262,7 +262,7 @@ figure {
 }
 
 .sf-menu a {
-  color: rgba(0, 0, 0, 0.5);
+  color: #644403be;
   padding: 0.75em 1em !important;
   font-weight: normal;
   border-left: none;
@@ -353,7 +353,7 @@ figure {
 
 #fh5co-header-section {
   
- /* border: 2px solid #000000;*/
+  
   padding: 0;
   position: relative;
   left: 0;
@@ -363,14 +363,14 @@ figure {
 }
 
 .nav-header {
- /* border: 2px solid #000000;*/
+   
   position: relative;
   float: left;
   width: 100%;
 }
 
 #fh5co-logo {
-  /*border: 2px solid #000000;*/
+  
   position: relative;
   z-index: 2;
   left: 63px;
@@ -383,13 +383,13 @@ figure {
 
 }
 #fh5co-logo i {
-  /*border: 2px solid #000000;*/
+  
   position: absolute;
   top: -37px;
   left:-65px;
   font-size: 16px;
   color: #F78536;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.0);
   padding: 0px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -397,24 +397,28 @@ figure {
   border-radius: 0%;
 }
 #fh5co-logo img{
-  width: 95px;
-  height: 95px;
+ /* width: 95px;
+  height: 95px;*/
  
+
 
 }
 #fh5co-logo a {
-  color: #080808;
+  color: #F78536;
+  font-family: 'Zen Tokyo Zoo', cursive;
 }
 #fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #F78536 !important;
+  color: #644403 !important;
 }
 
 #fh5co-menu-wrap {
+  
   position: relative;
   z-index: 2;
   display: block;
   float: right;
   margin-top: 15px;
+  left: 40px;
 }
 #fh5co-menu-wrap .sf-menu a {
   padding: 1em .75em;
@@ -536,7 +540,7 @@ figure {
   padding: 0 15px;
   font-size: 18px;
   line-height: 34px;
-  color: #575757 !important;
+  color: #644403 !important;
   text-transform: none;
   background: none;
 }
@@ -746,11 +750,16 @@ div.cs-select span {
   background: #F78536;
 }
 .heading-section h3 {
+  font-family: 'Acme', sans-serif;
+  color: #F78536;
   font-size: 40px;
   font-weight: 400;
   position: relative;
 }
 .heading-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #644403;
+  text-align: justify;
   font-size: 20px;
   
 }
@@ -1633,8 +1642,12 @@ div.cs-select span {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
 }
-#footer p a {
-  color: rgba(255, 255, 255, 0.5);
+#footer p {
+  color: rgb(34, 85, 226);
+}
+#footer a{
+  color: rgb(240, 0, 72);
+
 }
 #footer p a:hover, #footer p a:active, #footer p a:focus {
   color: rgba(255, 255, 255, 0.9) !important;
@@ -2006,7 +2019,8 @@ div.cs-select span {
 
 .gtco-container li{
   float: left;
-  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   margin-right: 40px;
   width: 40%;
 }
@@ -2016,6 +2030,20 @@ div.cs-select span {
   padding: 7em 0;
   clear: both;
   position: relative;
+}
+.gtco-container p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #644403;
+  font-size: 20px;
+  text-align: justify;
+}
+.gtco-container h2{
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  color: #F78536;
+ 
 }
 
 .gtco-container{
@@ -2033,6 +2061,13 @@ div.cs-select span {
     width: 95%;
     margin-left: 12px;
     
+  }
+  .gtco-container li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 40px;
+    width: 100%;
   }
   
 }
@@ -2112,7 +2147,7 @@ div.cs-select span {
   font-size: 20px;
   font-weight: 300;
   margin: 0 0 10px 0;
-  color: #f54c53;
+  color: #F78536;
 }
 .fh5co-project-item .fh5co-text span {
   color: #b3b3b3;
@@ -2161,11 +2196,14 @@ div.cs-select span {
   display: inline-block;
   text-align: justify;
   width: 100%;
+  
 }
 
 .gt-container li{
+  font-family: Arial, Helvetica, sans-serif;
   float: left;
-  
+  font-size: 20px;
+  color:  #644403;
   width: 50%;
 }
 
@@ -2174,6 +2212,20 @@ div.cs-select span {
   padding: 7em 0;
   clear: both;
   position: relative;
+}
+.gt-container p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #644403;
+  font-size: 20px;
+  text-align: justify;
+}
+.gt-container h2{
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  color: #F78536;
+ 
 }
 
 .gt-container{
@@ -2191,6 +2243,13 @@ div.cs-select span {
     width: 95%;
     margin-left: 12px;
     
+  }
+  .gt-container li{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 20px;
+    color:  #644403;
+    width: 100%;
   }
 }
 
