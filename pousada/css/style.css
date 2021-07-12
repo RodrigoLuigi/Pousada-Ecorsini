@@ -368,12 +368,14 @@ figure {
   float: left;
   width: 100%;
 }
+@media screen and (max-width: 480px){
 
+}
 #fh5co-logo {
   
   position: relative;
   z-index: 2;
-  left: 63px;
+  left: 35px;
   font-size: 28px;
   text-transform: uppercase;
   margin-top: 35px;
@@ -1636,6 +1638,16 @@ div.cs-select span {
   text-decoration: none;
   color: #5a5a5a;
 }
+.fh5co-social-icons img{
+  filter: invert(0%) sepia(100%) hue-rotate(-180deg) saturate(0) brightness(95%) contrast(80%);
+}
+
+.fh5co-social-icons img:hover{
+  
+  transition: 0.4s;
+  filter: none;
+}
+
 
 #footer {
   background: #393e46;
@@ -2053,6 +2065,7 @@ div.cs-select span {
  
 }
 
+
 .gtco-container{
   
   width: 95%;
@@ -2075,6 +2088,7 @@ div.cs-select span {
     font-size: 20px;
     margin-right: 40px;
     width: 100%;
+    padding: 5px;
   }
   
 }
