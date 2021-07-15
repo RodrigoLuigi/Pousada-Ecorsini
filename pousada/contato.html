@@ -40,6 +40,24 @@
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#f8f8f8">
+	<meta name="msapplication-TileImage" content="/ms-icon-180x180.png">
+	<meta name="theme-color" content="#f8f8f8">
+	<!------------------------------------------------->
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 	
@@ -102,7 +120,7 @@
 							</li>
 							<li><a href="instalacoes.html">Instalações</a></li>			
 							<li><a href="aventuras.html">Aventuras</a></li>
-							<li><a href="">Atrações</a></li>
+							<li><a href=""></a></li>
 							<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdFYIMzqSyW96UVbcg5kQcOQUnTilIDE6QVwuD5-usefup14g/viewform" target="_blanck">RESERVAS</a></li>
 							<li class="active"><a href="contato.html">Contato</a></li>
 						</ul>
@@ -144,16 +162,19 @@
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsum sed similique distinctio voluptatem .</p>
 					</div>
 				</div>
-				<form action="#" method="POST">
+				<form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+					<input type="hidden" name="recipient" value="digaor@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+					<input type="hidden" name="redirect" value="http://www.pousadaecorsini.com.br/contato.html"  > <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+					<input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+					<input type="hidden" name="email" value="pousadaecorsini@pousadaecorsini.com.br">   <!-- Deve ser uma conta de email ativa em seu domínio -->
 					<div class="row animate-box">
 						<div class="col-md-6">
 							<h3 class="section-title">Nosso endereço</h3>
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio architecto nulla excepturi at esse iste, voluptas!</p>
+							<p></p>
 							<ul class="contact-info">
 								<li><i class="icon-location-pin"></i> MG 129 MG-129, KM 187 Estrada Real, Ouro Branco - MG, CEP: 36420-000</li>
 								<li><i class="icon-phone2"></i>+ (31) 99840-1049</li>
 								<li><i class="icon-mail"></i><a href="#">pousadaecorsini@gmail.com</a></li>
-								<li><i class="icon-globe2"></i><a href="#">www.pousadaecorsiniaventura.com.br</a></li>
 								<li><i class="icon-facebook2"></i><a href="https://www.facebook.com/pousadaecorsini/">facebook.com/pousadaecorsini</a></li>
 								<li><i class="icon-instagram"></i><a href="https://www.instagram.com/pousada_ecorsini/">instagram.com/pousada_ecorsini</a></li>
 							</ul>
@@ -162,17 +183,23 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Nome" required>
+										
+										<input type="text" class="form-control" cols="30" placeholder="Nome" required> 
+										
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email" required>
+										<input type="text" class="form-control" cols="30" placeholder="E-mail" name="replyto" required>
+								
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Digite aqui sua menssagem" required></textarea>
+										 <textarea type="text" name="Menssagem" class="form-control" id="" cols="30" rows="10" placeholder="Digite aqui sua menssagem" required></textarea>
+										  
+										
+										
 									</div>
 								</div>
 								<div class="col-md-12">
@@ -207,8 +234,12 @@
 					</div>
 				</div>
 			</div>
+			
 		</footer>
-
+		
+		<a id="whatsapp" href="https://api.whatsapp.com/send?phone=5519999999999&text=Fale%20com%20a%20Pousada ECOrsini%20"
+   		 target="_blank"><img src="images/whatsapp-icon.png" alt="Contato pelo WhatsApp" /></a>
+		
 		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="icon-arrow-up22"></i></button>
 
 	

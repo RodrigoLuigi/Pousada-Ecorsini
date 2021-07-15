@@ -372,7 +372,6 @@ figure {
 
 }
 #fh5co-logo {
-  
   position: relative;
   z-index: 2;
   left: 35px;
@@ -384,6 +383,21 @@ figure {
   padding-left: 40px;
 
 }
+@media screen and (max-width: 768px){
+  #fh5co-logo {
+    position: relative;
+    z-index: 2;
+    left: 35px;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-weight: 700;
+    float: left;
+    padding-left: 40px;
+  
+  }
+}
+
 #fh5co-logo i {
   
   position: absolute;
@@ -398,6 +412,8 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 0%;
 }
+
+
 #fh5co-logo img{
   /*filter: invert(1);
  /* width: 95px;
@@ -2077,9 +2093,15 @@ div.cs-select span {
     padding: 2em 0;
   }
   .gtco-container{
-  
     width: 95%;
     margin-left: 12px;
+    
+  }
+  .gtco-container ul{
+    display: block;
+    text-align: justify;
+    width: 95%;
+    
     
   }
   .gtco-container li{
@@ -2088,7 +2110,7 @@ div.cs-select span {
     font-size: 20px;
     margin-right: 40px;
     width: 100%;
-    padding: 5px;
+    padding: 0px;
   }
   
 }
@@ -2210,6 +2232,7 @@ div.cs-select span {
 
 
 /*----------------------------------------------------------*/
+
 /*-------------------------------------------------------------------------------------------*/
 
 
@@ -2391,6 +2414,120 @@ div.cs-select span {
 }
 
 /*---------------------------------*/
+.fh-project-item {
+  
+  display: block;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  z-index: 9;
+  bottom: 0;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.fh-project-item figure {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 12;
+  position: relative;
+}
+.fh-project-item figure .overlay {
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+.fh-project-item figure .overlay i {
+  z-index: 12;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: -45px;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.fh-project-item img {
+  z-index: 8;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  
+}
+.fh-project-item .fh-text {
+  padding: 0px 10px 10px 20px;
+  text-align: center;
+}
+.fh-project-item .fh-text h2, .fh-project-item .fh-text span {
+  text-decoration: none !important;
+}
+.fh-project-item .fh-text h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  color: #f54c53;
+}
+.fh-project-item .fh-text span {
+  color: #b3b3b3;
+  font-size: 16px;
+  font-weight: 400;
+}
+.fh-project-item .fh-text p {
+  color: #000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh-project-item:hover, .fh-project-item:focus {
+  bottom: 7px;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+}
+.fh-project-item:hover img, .fh-project-item:focus img {
+  -webkot-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.fh-project-item:hover figure .overlay, .fh-project-item:focus figure .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.fh-project-item:hover figure .overlay i, .fh-project-item:focus figure .overlay i {
+  margin-top: -15px;
+}
+.fh-project-item:hover h2, .fh-project-item:hover span, .fh-project-item:focus h2, .fh-project-item:focus span {
+  text-decoration: none !important;
+}
 
 /*///-GO TOP--------------------////*/
 
@@ -2413,3 +2550,39 @@ div.cs-select span {
 #myBtn:hover {
   background-color: #555;
 }
+
+/*-------------------------------------*/
+#whatsapp {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 1265px;
+  z-index: 999;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50px;
+  
+}
+#whatsapp img:hover{
+  transform: scale(1.25);
+}
+@media screen and (max-width: 768px) {
+#whatsapp {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 295px;
+  z-index: 999;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50px;
+  
+}
+}
+
+  
+
+
+
