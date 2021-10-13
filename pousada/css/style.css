@@ -354,7 +354,7 @@ figure {
 #fh5co-header-section {
   
   
-  padding: 0;
+  padding: 6px;
   position: relative;
   left: 0;
   width: 100%;
@@ -369,7 +369,9 @@ figure {
   width: 100%;
 }
 @media screen and (max-width: 480px){
-
+  #fh5co-logo {
+    font-size: 18px;
+  }
 }
 #fh5co-logo {
   position: relative;
@@ -388,7 +390,7 @@ figure {
   #fh5co-logo {
     position: relative;
     z-index: 2;
-    left: 35px;
+    left: 25px;
     width: 85%;
     font-size: 23px;
     text-transform: uppercase;
@@ -404,7 +406,7 @@ figure {
   
   position: absolute;
   top: -37px;
-  left:-55px;
+  left:-50px;
   font-size: 16px;
   color: #F78536;
   background: rgba(0, 0, 0, 0.0);
@@ -1572,6 +1574,9 @@ div.cs-select span {
   .fh5co-blog {
     width: 100%;
   }
+  .fh5co-blog a img {
+    width: 100%;
+  }
 }
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
@@ -1579,7 +1584,7 @@ div.cs-select span {
   background: #fff;
   width: 100%;
   padding: 30px;
-  float: right;
+  /*float: right;*/
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
@@ -1646,6 +1651,7 @@ div.cs-select span {
 .fh5co-social-icons > a {
   padding: 4px 10px;
   color: #F78536;
+  
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
@@ -1675,6 +1681,7 @@ div.cs-select span {
 }
 #footer p {
   color: rgb(250, 251, 253);
+  
 }
 #footer a{
   font-family: Arial, Helvetica, sans-serif;
@@ -2611,6 +2618,41 @@ div.cs-select span {
   }
 
 }*/
+
+/*SOBRE A POUSADA HEADING SECTION*/
+.headin-section {
+  padding-bottom: 1em;
+  margin-bottom: -2.5em;
+}
+/*.headin-section:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  margin-left: -50px;
+  height: 2px;
+  background: #F78536;
+}*/
+.headin-section h3 {
+  font-family: 'Acme', sans-serif;
+  color: #F78536;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+}
+.headin-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #644403;
+  text-align: justify;
+  font-size: 20px;
+  
+}
+
+.headin-title {
+  font-size: 40px;
+  margin-bottom: 1.5em;
+}
 
   
 
